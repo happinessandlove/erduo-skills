@@ -3,9 +3,9 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-01-26",
-    "duration_seconds": 90,
-    "items_collected": 24,
+    "date": "2026-01-28",
+    "duration_seconds": 120,
+    "items_collected": 38,
     "items_published": 20,
     "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham"]
   },
@@ -13,36 +13,36 @@
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 2,
-      "success_count": 2,
-      "avg_items_per_fetch": 7,
+      "total_fetches": 3,
+      "success_count": 3,
+      "avg_items_per_fetch": 8,
       "avg_quality_score": 4.3,
-      "last_fetch": "2026-01-26",
-      "last_success": "2026-01-26"
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "hf_papers": {
-      "total_fetches": 2,
-      "success_count": 2,
-      "avg_items_per_fetch": 10,
-      "avg_quality_score": 4.2,
-      "last_fetch": "2026-01-26",
-      "last_success": "2026-01-26"
+      "total_fetches": 3,
+      "success_count": 3,
+      "avg_items_per_fetch": 13,
+      "avg_quality_score": 4.3,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "one_useful_thing": {
-      "total_fetches": 2,
-      "success_count": 2,
+      "total_fetches": 3,
+      "success_count": 3,
       "avg_items_per_fetch": 3,
-      "avg_quality_score": 4.7,
-      "last_fetch": "2026-01-26",
-      "last_success": "2026-01-26"
+      "avg_quality_score": 4.8,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "paul_graham": {
-      "total_fetches": 2,
-      "success_count": 2,
+      "total_fetches": 3,
+      "success_count": 3,
       "avg_items_per_fetch": 5,
-      "avg_quality_score": 4.6,
-      "last_fetch": "2026-01-26",
-      "last_success": "2026-01-26"
+      "avg_quality_score": 4.5,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     }
   },
 
@@ -69,7 +69,27 @@
       "https://paulgraham.com/goodwriting.html": "2026-01-26",
       "https://paulgraham.com/do.html": "2026-01-26",
       "https://paulgraham.com/writes.html": "2026-01-26",
-      "https://paulgraham.com/woke.html": "2026-01-26"
+      "https://paulgraham.com/woke.html": "2026-01-26",
+      "https://www.oneusefulthing.org/p/claude-code-and-what-comes-next": "2026-01-28",
+      "https://www.oneusefulthing.org/p/management-as-ai-superpower": "2026-01-28",
+      "https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks": "2026-01-28",
+      "https://huggingface.co/papers/2601.18692": "2026-01-28",
+      "https://huggingface.co/papers/2601.18491": "2026-01-28",
+      "https://huggingface.co/papers/2601.18631": "2026-01-28",
+      "https://huggingface.co/papers/2601.09150": "2026-01-28",
+      "https://huggingface.co/papers/2601.19834": "2026-01-28",
+      "https://huggingface.co/papers/2601.19798": "2026-01-28",
+      "https://huggingface.co/papers/2601.19362": "2026-01-28",
+      "https://www.himthe.dev/blog/microsoft-to-linux": "2026-01-28",
+      "https://www.arcee.ai/blog/trinity-large": "2026-01-28",
+      "https://www.dimamik.com/posts/oban_py/": "2026-01-28",
+      "https://jellyfin.org/docs/general/contributing/llm-policies/": "2026-01-28",
+      "https://github.com/jmuncor/sherlock": "2026-01-28",
+      "https://github.com/ratatui/mousefood": "2026-01-28",
+      "https://paulgraham.com/when.html": "2026-01-28",
+      "https://paulgraham.com/foundermode.html": "2026-01-28",
+      "https://paulgraham.com/persistence.html": "2026-01-28",
+      "https://paulgraham.com/google.html": "2026-01-28"
     }
   },
 
@@ -103,6 +123,28 @@
       "SALAD: High-Sparsity Attention via Efficient Linear Attention for Video Diffusion",
       "The Origins of Wokeness",
       "GPT-5: It Just Does Stuff"
+    ],
+    "2026-01-28": [
+      "Claude Code and What Comes Next",
+      "Management as AI Superpower",
+      "A Pragmatic VLA Foundation Model (LingBot-VLA)",
+      "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety",
+      "Trinity Large: An Open 400B Sparse MoE Model",
+      "Founder Mode",
+      "The Shape of AI: Jaggedness, Bottlenecks and Salients",
+      "Microsoft Forced Me to Switch to Linux",
+      "When To Do What You Love",
+      "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning",
+      "World Craft: Agentic Framework to Create Visualizable Worlds via Text",
+      "Visual Generation Unlocks Human-Like Reasoning through Multimodal World Models",
+      "Oban: The Job Processing Framework from Elixir Has Come to Python",
+      "Jellyfin LLM/AI Development Policy",
+      "Sherlock: A MitM Proxy to See What Your LLM Tools Are Sending",
+      "Mousefood: Build Embedded Terminal UIs for Microcontrollers",
+      "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+      "The Right Kind of Stubborn",
+      "How to Start Google",
+      "Revisiting Parameter Server in LLM Post-Training"
     ]
   }
 }
