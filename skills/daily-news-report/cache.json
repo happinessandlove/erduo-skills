@@ -3,11 +3,11 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-01-31",
-    "duration_seconds": 90,
-    "items_collected": 28,
+    "date": "2026-02-01",
+    "duration_seconds": 120,
+    "items_collected": 20,
     "items_published": 20,
-    "sources_used": ["hn", "hf_papers"]
+    "sources_used": ["hn", "one_useful_thing", "paul_graham", "james_clear", "fs_blog"]
   },
 
   "source_stats": {
@@ -109,7 +109,27 @@
       "https://huggingface.co/papers/2601.21420": "2026-01-31",
       "https://huggingface.co/papers/2601.22046": "2026-01-31",
       "https://huggingface.co/papers/2601.21337": "2026-01-31",
-      "https://huggingface.co/papers/2601.20730": "2026-01-31"
+      "https://huggingface.co/papers/2601.20730": "2026-01-31",
+      "https://nmn.sh/blog/2023-10-02-swift-is-the-more-convenient-rust": "2026-02-01",
+      "https://an.dywa.ng/carrier-gnss.html": "2026-02-01",
+      "https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/": "2026-02-01",
+      "https://arxiv.org/abs/2512.21473": "2026-02-01",
+      "https://github.com/rtvkiz/minimal": "2026-02-01",
+      "https://genode.org/about/index": "2026-02-01",
+      "https://crl.io/ds-game-engine/": "2026-02-01",
+      "https://github.com/zpoint/CPython-Internals": "2026-02-01",
+      "https://github.com/noctalia-dev/noctalia-shell": "2026-02-01",
+      "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini": "2026-02-01",
+      "https://www.oneusefulthing.org/p/giving-your-ai-a-job-interview": "2026-02-01",
+      "https://www.oneusefulthing.org/p/real-ai-agents-and-real-work": "2026-02-01",
+      "https://paulgraham.com/reddits.html": "2026-02-01",
+      "https://paulgraham.com/best.html": "2026-02-01",
+      "https://paulgraham.com/superlinear.html": "2026-02-01",
+      "https://paulgraham.com/greatwork.html": "2026-02-01",
+      "https://paulgraham.com/getideas.html": "2026-02-01",
+      "https://jamesclear.com/3-2-1/january-15-2026": "2026-02-01",
+      "https://jamesclear.com/3-2-1/january-8-2026": "2026-02-01",
+      "https://fs.blog/brain-food/january-18-2026/": "2026-02-01"
     }
   },
 
@@ -187,6 +207,28 @@
       "AI conversation partner for language practice",
       "Faraday iPhone cases discussion",
       "HTTP Cats"
+    ],
+    "2026-02-01": [
+      "Mobile carriers can get your GPS location",
+      "Demystifying ARM SME to Optimize General Matrix Multiplications",
+      "Genode OS: A tool kit for building highly secure special-purpose OS",
+      "CPython Internals Explained",
+      "Three Years from GPT-3 to Gemini 3",
+      "Real AI Agents and Real Work",
+      "Superlinear Returns",
+      "How to Do Great Work",
+      "3-2-1: On comparison, life strategy, and stopping negative thought spirals",
+      "3-2-1: On obsessions, what you can control, and the power of decisive action",
+      "Brain Food #664: An Extra Gear",
+      "Swift is a more convenient Rust",
+      "Generative AI and Wikipedia editing: What we learned in 2025",
+      "Minimal: Open-Source Community driven Hardened Container Images",
+      "Giving Your AI a Job Interview",
+      "The Reddits",
+      "The Best Essay",
+      "How to Get New Ideas",
+      "Noctia: A sleek and minimal desktop shell for Wayland",
+      "Nintendo DS code editor and scriptable game engine"
     ]
   }
 }
