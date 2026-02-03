@@ -3,46 +3,46 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-01",
-    "duration_seconds": 120,
+    "date": "2026-02-04",
+    "duration_seconds": 180,
     "items_collected": 20,
     "items_published": 20,
-    "sources_used": ["hn", "one_useful_thing", "paul_graham", "james_clear", "fs_blog"]
+    "sources_used": ["hn", "hf_papers", "james_clear", "securelist"]
   },
 
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 5,
+      "success_count": 5,
       "avg_items_per_fetch": 9,
-      "avg_quality_score": 4.0,
-      "last_fetch": "2026-01-31",
-      "last_success": "2026-01-31"
+      "avg_quality_score": 4.1,
+      "last_fetch": "2026-02-04",
+      "last_success": "2026-02-04"
     },
     "hf_papers": {
-      "total_fetches": 4,
-      "success_count": 4,
-      "avg_items_per_fetch": 11,
-      "avg_quality_score": 4.4,
-      "last_fetch": "2026-01-31",
-      "last_success": "2026-01-31"
+      "total_fetches": 5,
+      "success_count": 5,
+      "avg_items_per_fetch": 12,
+      "avg_quality_score": 4.5,
+      "last_fetch": "2026-02-04",
+      "last_success": "2026-02-04"
     },
     "one_useful_thing": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 5,
+      "success_count": 5,
       "avg_items_per_fetch": 3,
       "avg_quality_score": 4.8,
-      "last_fetch": "2026-01-31",
-      "last_success": "2026-01-31"
+      "last_fetch": "2026-02-04",
+      "last_success": "2026-02-04"
     },
     "paul_graham": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 5,
+      "success_count": 5,
       "avg_items_per_fetch": 5,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-01-31",
-      "last_success": "2026-01-31"
+      "last_fetch": "2026-02-04",
+      "last_success": "2026-02-04"
     }
   },
 
@@ -129,7 +129,27 @@
       "https://paulgraham.com/getideas.html": "2026-02-01",
       "https://jamesclear.com/3-2-1/january-15-2026": "2026-02-01",
       "https://jamesclear.com/3-2-1/january-8-2026": "2026-02-01",
-      "https://fs.blog/brain-food/january-18-2026/": "2026-02-01"
+      "https://fs.blog/brain-food/january-18-2026/": "2026-02-01",
+      "https://qwen.ai/blog?id=qwen3-coder-next": "2026-02-04",
+      "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/": "2026-02-04",
+      "https://deno.com/blog/introducing-deno-sandbox": "2026-02-04",
+      "https://agentskills.io/home": "2026-02-04",
+      "https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060": "2026-02-04",
+      "https://huggingface.co/papers/2602.02361": "2026-02-04",
+      "https://huggingface.co/papers/2602.02276": "2026-02-04",
+      "https://blog.senko.net/sandboxing-ai-agents-in-linux": "2026-02-04",
+      "https://securelist.com/notepad-supply-chain-attack/118708/": "2026-02-04",
+      "https://huggingface.co/papers/2602.02084": "2026-02-04",
+      "https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/": "2026-02-04",
+      "https://huggingface.co/papers/2602.02477": "2026-02-04",
+      "https://dl.acm.org/doi/10.1145/3774934.3786425": "2026-02-04",
+      "https://github.com/j178/prek": "2026-02-04",
+      "https://github.com/alibaba/AliSQL": "2026-02-04",
+      "https://huggingface.co/papers/2602.01058": "2026-02-04",
+      "https://huggingface.co/papers/2601.21123": "2026-02-04",
+      "https://huggingface.co/papers/2602.02343": "2026-02-04",
+      "https://huggingface.co/papers/2602.02493": "2026-02-04",
+      "https://jamesclear.com/3-2-1/january-22-2026": "2026-02-04"
     }
   },
 
@@ -229,6 +249,28 @@
       "How to Get New Ideas",
       "Noctia: A sleek and minimal desktop shell for Wayland",
       "Nintendo DS code editor and scriptable game engine"
+    ],
+    "2026-02-04": [
+      "Qwen3-Coder-Next: 80B Ultra-Sparse Open-Source Coding Model",
+      "Xcode 26.3: Apple Integrates AI Coding Agents into IDE",
+      "Deno Sandbox: Secure Code Execution for AI Agents",
+      "Agent Skills: Open Standard for Agent Capabilities",
+      "France Dumps Zoom and Teams for Digital Sovereignty",
+      "SWE-Universe: Scaling Real-World Verifiable Environments to Millions",
+      "Kimi K2.5: Visual Agentic Intelligence",
+      "Sandboxing AI Agents in Linux",
+      "Notepad++ Supply Chain Attack Analysis",
+      "RPG-Encoder: Universal Repository Representation",
+      "Bunny Database: Globally Distributed SQLite-Compatible Database",
+      "Training LLMs for Divide-and-Conquer Reasoning",
+      "FlashAttention-T: Towards Tensorized Attention",
+      "Prek: A Faster pre-commit Replacement in Rust",
+      "AliSQL: MySQL with Vector and DuckDB Engines",
+      "Good SFT Prepares for Reinforcement Learning",
+      "CUA-Skill: Skills for Computer Using Agent",
+      "Why Steering Works: Unified View of LLM Parameter Dynamics",
+      "PixelGen: Pixel Diffusion Beats Latent Diffusion",
+      "3-2-1: On preparation, power, and conviction"
     ]
   }
 }
