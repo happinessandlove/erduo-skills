@@ -3,30 +3,30 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-04",
-    "duration_seconds": 180,
+    "date": "2026-02-06",
+    "duration_seconds": 240,
     "items_collected": 20,
     "items_published": 20,
-    "sources_used": ["hn", "hf_papers", "james_clear", "securelist"]
+    "sources_used": ["hn", "hf_papers"]
   },
 
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 5,
-      "success_count": 5,
-      "avg_items_per_fetch": 9,
-      "avg_quality_score": 4.1,
-      "last_fetch": "2026-02-04",
-      "last_success": "2026-02-04"
+      "total_fetches": 6,
+      "success_count": 6,
+      "avg_items_per_fetch": 10,
+      "avg_quality_score": 4.2,
+      "last_fetch": "2026-02-06",
+      "last_success": "2026-02-06"
     },
     "hf_papers": {
-      "total_fetches": 5,
-      "success_count": 5,
-      "avg_items_per_fetch": 12,
+      "total_fetches": 6,
+      "success_count": 6,
+      "avg_items_per_fetch": 15,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-04",
-      "last_success": "2026-02-04"
+      "last_fetch": "2026-02-06",
+      "last_success": "2026-02-06"
     },
     "one_useful_thing": {
       "total_fetches": 5,
@@ -149,7 +149,27 @@
       "https://huggingface.co/papers/2601.21123": "2026-02-04",
       "https://huggingface.co/papers/2602.02343": "2026-02-04",
       "https://huggingface.co/papers/2602.02493": "2026-02-04",
-      "https://jamesclear.com/3-2-1/january-22-2026": "2026-02-04"
+      "https://jamesclear.com/3-2-1/january-22-2026": "2026-02-04",
+      "https://www.anthropic.com/news/claude-opus-4-6": "2026-02-06",
+      "https://huggingface.co/papers/2602.04634": "2026-02-06",
+      "https://openai.com/index/introducing-gpt-5-3-codex/": "2026-02-06",
+      "https://huggingface.co/papers/2602.04705": "2026-02-06",
+      "https://www.anthropic.com/engineering/building-c-compiler": "2026-02-06",
+      "https://code.claude.com/docs/en/agent-teams": "2026-02-06",
+      "https://huggingface.co/papers/2602.03152": "2026-02-06",
+      "https://mitchellh.com/writing/my-ai-adoption-journey": "2026-02-06",
+      "https://huggingface.co/papers/2601.22954": "2026-02-06",
+      "https://huggingface.co/papers/2602.04879": "2026-02-06",
+      "https://blog.comma.ai/datacenter/": "2026-02-06",
+      "https://huggingface.co/papers/2602.03587": "2026-02-06",
+      "https://rachelbythebay.com/w/2026/02/03/badnas/": "2026-02-06",
+      "https://github.com/mdp/linkedin-extension-fingerprinting": "2026-02-06",
+      "https://huggingface.co/papers/2602.04145": "2026-02-06",
+      "https://huggingface.co/papers/2602.04804": "2026-02-06",
+      "https://huggingface.co/papers/2602.03560": "2026-02-06",
+      "https://github.com/HKUDS/nanobot": "2026-02-06",
+      "https://huggingface.co/papers/2602.03442": "2026-02-06",
+      "https://blog.42futures.com/p/company-as-code": "2026-02-06"
     }
   },
 
@@ -271,6 +291,28 @@
       "Why Steering Works: Unified View of LLM Parameter Dynamics",
       "PixelGen: Pixel Diffusion Beats Latent Diffusion",
       "3-2-1: On preparation, power, and conviction"
+    ],
+    "2026-02-06": [
+      "Claude Opus 4.6: 1M Context Window and Adaptive Thinking",
+      "WideSeek-R1: Width Scaling for Multi-Agent Information Seeking",
+      "GPT-5.3-Codex: First Self-Developing AI Coding Model",
+      "ERNIE 5.0: Trillion-Parameter Unified Multimodal Model",
+      "16 Opus 4.6 Agents Build a C Compiler in Rust",
+      "Claude Code Agent Teams: Multi-Agent Collaboration",
+      "FASA: Frequency-aware Sparse Attention",
+      "Mitchell Hashimoto's AI Adoption Journey",
+      "Residual Context Diffusion Language Models",
+      "DPPO: Rethinking Trust Region in LLM RL",
+      "comma.ai $5M Self-Built Data Center",
+      "CL-bench: Context Learning Benchmark",
+      "Internal Hostnames Leaked via Sentry",
+      "LinkedIn Browser Extension Fingerprinting",
+      "Training Data Efficiency in Multimodal Process Reward Models",
+      "OmniSIFT: Modality-Asymmetric Token Compression",
+      "HySparse: Hybrid Sparse Attention with Oracle Token Selection",
+      "Nanobot: Ultra-Lightweight AI Agent Framework",
+      "A-RAG: Scaling Agentic RAG via Hierarchical Retrieval",
+      "Company as Code: Organizational Structure as Infrastructure"
     ]
   }
 }
