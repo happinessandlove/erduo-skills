@@ -3,46 +3,46 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-06",
-    "duration_seconds": 240,
+    "date": "2026-02-07",
+    "duration_seconds": 300,
     "items_collected": 20,
     "items_published": 20,
-    "sources_used": ["hn", "hf_papers"]
+    "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham"]
   },
 
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 6,
-      "success_count": 6,
+      "total_fetches": 7,
+      "success_count": 7,
       "avg_items_per_fetch": 10,
-      "avg_quality_score": 4.2,
-      "last_fetch": "2026-02-06",
-      "last_success": "2026-02-06"
+      "avg_quality_score": 4.3,
+      "last_fetch": "2026-02-07",
+      "last_success": "2026-02-07"
     },
     "hf_papers": {
-      "total_fetches": 6,
-      "success_count": 6,
+      "total_fetches": 7,
+      "success_count": 7,
       "avg_items_per_fetch": 15,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-06",
-      "last_success": "2026-02-06"
+      "last_fetch": "2026-02-07",
+      "last_success": "2026-02-07"
     },
     "one_useful_thing": {
-      "total_fetches": 5,
-      "success_count": 5,
+      "total_fetches": 6,
+      "success_count": 6,
       "avg_items_per_fetch": 3,
       "avg_quality_score": 4.8,
-      "last_fetch": "2026-02-04",
-      "last_success": "2026-02-04"
+      "last_fetch": "2026-02-07",
+      "last_success": "2026-02-07"
     },
     "paul_graham": {
-      "total_fetches": 5,
-      "success_count": 5,
+      "total_fetches": 6,
+      "success_count": 6,
       "avg_items_per_fetch": 5,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-04",
-      "last_success": "2026-02-04"
+      "last_fetch": "2026-02-07",
+      "last_success": "2026-02-07"
     }
   },
 
@@ -169,7 +169,27 @@
       "https://huggingface.co/papers/2602.03560": "2026-02-06",
       "https://github.com/HKUDS/nanobot": "2026-02-06",
       "https://huggingface.co/papers/2602.03442": "2026-02-06",
-      "https://blog.42futures.com/p/company-as-code": "2026-02-06"
+      "https://blog.42futures.com/p/company-as-code": "2026-02-06",
+      "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation": "2026-02-07",
+      "https://huggingface.co/papers/2602.06036": "2026-02-07",
+      "https://red.anthropic.com/2026/zero-days/": "2026-02-07",
+      "https://huggingface.co/papers/2602.05885": "2026-02-07",
+      "https://www.oneusefulthing.org/p/on-working-with-wizards": "2026-02-07",
+      "https://huggingface.co/papers/2602.05386": "2026-02-07",
+      "https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/": "2026-02-07",
+      "https://www.oneusefulthing.org/p/against-brain-damage": "2026-02-07",
+      "https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html": "2026-02-07",
+      "https://github.com/pydantic/monty": "2026-02-07",
+      "https://github.com/microsoft/litebox": "2026-02-07",
+      "https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/": "2026-02-07",
+      "https://huggingface.co/papers/2602.06028": "2026-02-07",
+      "https://huggingface.co/papers/2602.05261": "2026-02-07",
+      "https://huggingface.co/papers/2602.05975": "2026-02-07",
+      "https://huggingface.co/papers/2602.05842": "2026-02-07",
+      "https://huggingface.co/papers/2602.06040": "2026-02-07",
+      "https://docs.smooth.sh/cli/overview": "2026-02-07",
+      "https://paulgraham.com/users.html": "2026-02-07",
+      "https://paulgraham.com/read.html": "2026-02-07"
     }
   },
 
@@ -313,6 +333,28 @@
       "Nanobot: Ultra-Lightweight AI Agent Framework",
       "A-RAG: Scaling Agentic RAG via Hierarchical Retrieval",
       "Company as Code: Organizational Structure as Infrastructure"
+    ],
+    "2026-02-07": [
+      "The Waymo World Model: Autonomous Driving Simulation via Genie 3",
+      "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "Evaluating and Mitigating the Growing Risk of LLM-Discovered 0-Days",
+      "Dr. Kernel: Reinforcement Learning for Triton Kernel Generations",
+      "On Working with Wizards: Verifying Magic on the Jagged Frontier",
+      "Spider-Sense: Intrinsic Risk Sensing for Agent Defense",
+      "How to Effectively Write Quality Code with AI",
+      "Against Brain Damage: AI Can Help or Hurt Our Thinking",
+      "Brendan Gregg Joins OpenAI for AI Data Center Performance",
+      "Monty: Minimal Secure Python Interpreter in Rust for AI",
+      "LiteBox: Microsoft Open-Source Security-Focused Library OS",
+      "Google Developer Knowledge API and MCP Server",
+      "Context Forcing: Consistent Long Video Generation",
+      "LUSPO: Length-Unbiased Sequence Policy Optimization",
+      "SAGE: Benchmarking Retrieval for Deep Research Agents",
+      "RWML: Reinforcement World Model Learning for LLM Agents",
+      "SwimBird: Switchable Reasoning Mode in Hybrid MLLMs",
+      "Smooth CLI: Token-Efficient Browser for AI Agents",
+      "What I've Learned from Users (Paul Graham)",
+      "The Need to Read (Paul Graham)"
     ]
   }
 }
