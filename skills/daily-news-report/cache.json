@@ -3,30 +3,30 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-07",
-    "duration_seconds": 300,
+    "date": "2026-02-09",
+    "duration_seconds": 280,
     "items_collected": 20,
     "items_published": 20,
-    "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham"]
+    "sources_used": ["hn", "hf_papers"]
   },
 
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 8,
+      "success_count": 8,
       "avg_items_per_fetch": 10,
-      "avg_quality_score": 4.3,
-      "last_fetch": "2026-02-07",
-      "last_success": "2026-02-07"
+      "avg_quality_score": 4.4,
+      "last_fetch": "2026-02-09",
+      "last_success": "2026-02-09"
     },
     "hf_papers": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 8,
+      "success_count": 8,
       "avg_items_per_fetch": 15,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-07",
-      "last_success": "2026-02-07"
+      "last_fetch": "2026-02-09",
+      "last_success": "2026-02-09"
     },
     "one_useful_thing": {
       "total_fetches": 6,
@@ -189,7 +189,27 @@
       "https://huggingface.co/papers/2602.06040": "2026-02-07",
       "https://docs.smooth.sh/cli/overview": "2026-02-07",
       "https://paulgraham.com/users.html": "2026-02-07",
-      "https://paulgraham.com/read.html": "2026-02-07"
+      "https://paulgraham.com/read.html": "2026-02-07",
+      "https://github.github.io/gh-aw/": "2026-02-09",
+      "https://blog.otterstack.com/posts/202512-gbshader/": "2026-02-09",
+      "https://huggingface.co/papers/2602.02016": "2026-02-09",
+      "https://huggingface.co/papers/2602.02393": "2026-02-09",
+      "https://github.com/apple-oss-distributions/xnu/blob/main/doc/scheduler/sched_clutch_edge.md": "2026-02-09",
+      "https://huggingface.co/papers/2602.04210": "2026-02-09",
+      "https://huggingface.co/papers/2602.05216": "2026-02-09",
+      "https://alfioemanuele.io/talks/2026/02/01/fosdem-2026-credentials-for-linux.html": "2026-02-09",
+      "https://nullcathedral.com/posts/2026-02-08-roundcube-svg-feimage-remote-image-bypass/": "2026-02-09",
+      "https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/": "2026-02-09",
+      "https://huggingface.co/papers/2602.05327": "2026-02-09",
+      "https://huggingface.co/papers/2602.02474": "2026-02-09",
+      "https://huggingface.co/papers/2601.22027": "2026-02-09",
+      "https://huggingface.co/papers/2602.03338": "2026-02-09",
+      "https://huggingface.co/papers/2602.05258": "2026-02-09",
+      "https://huggingface.co/papers/2602.05393": "2026-02-09",
+      "https://huggingface.co/papers/2602.01965": "2026-02-09",
+      "https://huggingface.co/papers/2602.05547": "2026-02-09",
+      "https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/": "2026-02-09",
+      "https://habr.com/en/articles/446238/": "2026-02-09"
     }
   },
 
@@ -355,6 +375,28 @@
       "Smooth CLI: Token-Efficient Browser for AI Agents",
       "What I've Learned from Users (Paul Graham)",
       "The Need to Read (Paul Graham)"
+    ],
+    "2026-02-09": [
+      "GitHub Agentic Workflows: AI-Driven Repository Automation",
+      "GBShader: Real-Time 3D Shader on Game Boy Color",
+      "DASH: Faster Shampoo via Batched Block Preconditioning (4.83x Speedup)",
+      "Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons",
+      "Apple XNU Clutch Scheduler: Intra-Cluster Thread Scheduling Design",
+      "Steering LLMs via Scalable Interactive Oversight (54% Alignment Improvement)",
+      "Semantic Search over 9 Million Mathematical Theorems",
+      "Credentials for Linux: Bringing Passkeys to Linux Desktop",
+      "Roundcube Webmail SVG feImage Remote Image Bypass",
+      "Reverse Engineering the PROM for the SGI O2",
+      "ProAct: Agentic Lookahead in Interactive Environments",
+      "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+      "CAR-bench: Evaluating LLM Agents under Real-World Uncertainty",
+      "Accurate Failure Prediction Does Not Imply Effective Failure Prevention",
+      "CoPE: Clipped RoPE as Scalable Free Lunch for Long Context LLMs",
+      "Late-to-Early Training: LET LLMs Learn Earlier (1.6x Speedup)",
+      "CatRAG: Context-Aware Traversal for Robust RAG",
+      "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
+      "Running Your Own AS: BGP on FreeBSD with FRR and Policy Routing",
+      "Exploiting Signed Bootloaders to Circumvent UEFI Secure Boot"
     ]
   }
 }
