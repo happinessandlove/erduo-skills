@@ -3,8 +3,8 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-09",
-    "duration_seconds": 280,
+    "date": "2026-02-10",
+    "duration_seconds": 300,
     "items_collected": 20,
     "items_published": 20,
     "sources_used": ["hn", "hf_papers"]
@@ -13,20 +13,20 @@
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 8,
-      "success_count": 8,
+      "total_fetches": 9,
+      "success_count": 9,
       "avg_items_per_fetch": 10,
-      "avg_quality_score": 4.4,
-      "last_fetch": "2026-02-09",
-      "last_success": "2026-02-09"
+      "avg_quality_score": 4.2,
+      "last_fetch": "2026-02-10",
+      "last_success": "2026-02-10"
     },
     "hf_papers": {
-      "total_fetches": 8,
-      "success_count": 8,
+      "total_fetches": 9,
+      "success_count": 9,
       "avg_items_per_fetch": 15,
-      "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-09",
-      "last_success": "2026-02-09"
+      "avg_quality_score": 4.4,
+      "last_fetch": "2026-02-10",
+      "last_success": "2026-02-10"
     },
     "one_useful_thing": {
       "total_fetches": 6,
@@ -209,7 +209,27 @@
       "https://huggingface.co/papers/2602.01965": "2026-02-09",
       "https://huggingface.co/papers/2602.05547": "2026-02-09",
       "https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/": "2026-02-09",
-      "https://habr.com/en/articles/446238/": "2026-02-09"
+      "https://habr.com/en/articles/446238/": "2026-02-09",
+      "https://arxiv.org/abs/2512.20798": "2026-02-10",
+      "https://github.com/antirez/voxtral.c": "2026-02-10",
+      "https://github.com/TrevorS/voxtral-mini-realtime-rs": "2026-02-10",
+      "https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/": "2026-02-10",
+      "https://pixelcluster.github.io/Mesa-26/": "2026-02-10",
+      "https://huggingface.co/papers/2602.06540": "2026-02-10",
+      "https://huggingface.co/papers/2602.07026": "2026-02-10",
+      "https://huggingface.co/papers/2602.07845": "2026-02-10",
+      "https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/": "2026-02-10",
+      "https://www.bicameral-ai.com/blog/tech-debt-meeting": "2026-02-10",
+      "https://github.com/villagesql/villagesql-server": "2026-02-10",
+      "https://huggingface.co/papers/2602.08794": "2026-02-10",
+      "https://huggingface.co/papers/2602.06422": "2026-02-10",
+      "https://huggingface.co/papers/2602.07085": "2026-02-10",
+      "https://huggingface.co/papers/2602.08676": "2026-02-10",
+      "https://huggingface.co/papers/2602.07962": "2026-02-10",
+      "https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out": "2026-02-10",
+      "https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock": "2026-02-10",
+      "https://surfingcomplexity.blog/2026/02/08/nobody-knows-how-the-whole-system-works/": "2026-02-10",
+      "https://znah.net/graphs/": "2026-02-10"
     }
   },
 
@@ -397,6 +417,28 @@
       "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
       "Running Your Own AS: BGP on FreeBSD with FRR and Policy Routing",
       "Exploiting Signed Bootloaders to Circumvent UEFI Secure Boot"
+    ],
+    "2026-02-10": [
+      "Frontier AI Agents Violate Ethical Constraints 30-50% Under KPI Pressure",
+      "voxtral.c: Pure C CPU-Only Inference for Mistral Voxtral 4B Speech-to-Text",
+      "Voxtral Mini 4B Rust Implementation: Browser-Based Streaming Speech Recognition",
+      "What Functional Programmers Get Wrong About Systems",
+      "Mesa 26.0 RADV Ray Tracing: Shader Compilation Revolution",
+      "AgentCPM-Report: 8B Parameter Deep Research Report Generation",
+      "Modality Gap-Driven Subspace Alignment for Multimodal LLMs",
+      "Recurrent-Depth VLA: Implicit Test-Time Compute Scaling",
+      "Hard-Braking Events as Road Crash Risk Indicators (Google Research)",
+      "Why 'Just Prompt Better' Doesn't Work: Hidden Cost of AI Coding",
+      "VillageSQL: Extensible MySQL Fork for AI Era",
+      "MOVA: Scalable Synchronized Video-Audio Generation (32B MoE)",
+      "TurningPoint-GRPO: Step-Wise Reward Optimization for Flow Matching",
+      "QuantaAlpha: LLM-Driven Evolutionary Alpha Mining Framework",
+      "LLaDA2.1: Token Editing for Faster Text Diffusion",
+      "LOCA-bench: Benchmarking Language Agents Under Extreme Context Growth",
+      "Discord Global Age Verification via Face Scan or ID",
+      "ESP8266 Wi-Fi Analog Clock: $3.88 IoT Conversion",
+      "Nobody Knows How the Whole System Works: AI and Cognitive Delegation",
+      "Graph-Rewriting Automata: Emergent Complexity on Growing Graphs"
     ]
   }
 }
