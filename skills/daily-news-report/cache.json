@@ -3,8 +3,8 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-13",
-    "duration_seconds": 240,
+    "date": "2026-02-18",
+    "duration_seconds": 280,
     "items_collected": 20,
     "items_published": 20,
     "sources_used": ["hn", "hf_papers"]
@@ -13,20 +13,20 @@
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 9,
-      "success_count": 9,
+      "total_fetches": 10,
+      "success_count": 10,
       "avg_items_per_fetch": 10,
-      "avg_quality_score": 4.4,
-      "last_fetch": "2026-02-13",
-      "last_success": "2026-02-13"
+      "avg_quality_score": 4.3,
+      "last_fetch": "2026-02-18",
+      "last_success": "2026-02-18"
     },
     "hf_papers": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "avg_items_per_fetch": 15,
+      "total_fetches": 10,
+      "success_count": 10,
+      "avg_items_per_fetch": 13,
       "avg_quality_score": 4.4,
-      "last_fetch": "2026-02-13",
-      "last_success": "2026-02-13"
+      "last_fetch": "2026-02-18",
+      "last_success": "2026-02-18"
     },
     "one_useful_thing": {
       "total_fetches": 7,
@@ -229,7 +229,27 @@
       "https://huggingface.co/papers/2602.11103": "2026-02-13",
       "https://huggingface.co/papers/2602.11089": "2026-02-13",
       "https://huggingface.co/papers/2602.10224": "2026-02-13",
-      "https://huggingface.co/papers/2602.10622": "2026-02-13"
+      "https://huggingface.co/papers/2602.10622": "2026-02-13",
+      "https://www.anthropic.com/news/claude-sonnet-4-6": "2026-02-18",
+      "https://huggingface.co/papers/2602.13344": "2026-02-18",
+      "https://huggingface.co/papers/2602.14041": "2026-02-18",
+      "https://github.com/Zaneham/BarraCUDA": "2026-02-18",
+      "https://huggingface.co/papers/2602.13949": "2026-02-18",
+      "https://huggingface.co/papers/2602.14721": "2026-02-18",
+      "https://www.vectorware.com/blog/async-await-on-gpu/": "2026-02-18",
+      "https://go.dev/blog/gofix": "2026-02-18",
+      "https://blog.tomaszdunia.pl/grapheneos-eng/": "2026-02-18",
+      "https://huggingface.co/papers/2602.14234": "2026-02-18",
+      "https://huggingface.co/papers/2602.14265": "2026-02-18",
+      "https://asteroidos.org/news/2-0-release/index.html": "2026-02-18",
+      "https://www.gentoo.org/news/2026/02/16/codeberg.html": "2026-02-18",
+      "https://huggingface.co/papers/2602.10809": "2026-02-18",
+      "https://huggingface.co/papers/2602.07824": "2026-02-18",
+      "https://huggingface.co/papers/2602.13367": "2026-02-18",
+      "https://huggingface.co/papers/2602.14178": "2026-02-18",
+      "https://huggingface.co/papers/2602.11574": "2026-02-18",
+      "https://mage-bench.com/": "2026-02-18",
+      "https://aeris.edbn.me/?city=SFO": "2026-02-18"
     }
   },
 
@@ -439,6 +459,28 @@
       "DataChef: Cooking Up Optimal Data Recipes via Reinforcement Learning",
       "MEL: Meta-Experience Learning for Guided RL in LLMs",
       "Decoder-Only LLMs Perceive Users: Rethinking Attention Masking"
+    ],
+    "2026-02-18": [
+      "Claude Sonnet 4.6: 1M Context Window and Comprehensive Capability Upgrade",
+      "FireRed-Image-Edit-1.0: Instruction-Driven Image Editing via Diffusion Transformer",
+      "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+      "BarraCUDA: Open-Source CUDA Compiler Targeting AMD GPUs",
+      "Experiential Reinforcement Learning: Experience-Reflection-Consolidation Loop",
+      "WebWorld: First Large-Scale Open Web Simulator for Agent Training",
+      "Async/Await on GPU: Rust Structured Concurrency on GPU Hardware",
+      "Go 1.26 go fix: Automated Code Modernization Tool",
+      "GrapheneOS: Privacy-First Open-Source Mobile OS",
+      "REDSearcher: Scalable Framework for Long-Horizon Search Agents",
+      "STATe-of-Thoughts: Structured Action Templates for Interpretable Reasoning",
+      "AsteroidOS 2.0: Open-Source Smartwatch OS Major Update",
+      "Gentoo Linux Migrates to Codeberg",
+      "DeepImageSearch: Agentic Multimodal Image Retrieval",
+      "Data Darwinism: Systematic Scientific Data Processing Framework",
+      "Nanbeige4.1-3B: Small Unified Model with Strong Agentic Capabilities",
+      "UniWeTok: Unified Binary Tokenizer with 2^128 Codebook",
+      "ARC: Learning to Configure Agentic AI Systems via Hierarchical RL",
+      "Mage-Bench: LLMs Play Magic: The Gathering for Strategy Reasoning Evaluation",
+      "3D Flight Tracking: From 2D to 3D Aviation Data Visualization"
     ]
   }
 }
