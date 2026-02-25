@@ -3,9 +3,9 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-24",
-    "duration_seconds": 420,
-    "items_collected": 24,
+    "date": "2026-02-25",
+    "duration_seconds": 380,
+    "items_collected": 34,
     "items_published": 20,
     "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham"]
   },
@@ -13,36 +13,36 @@
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 12,
-      "success_count": 12,
+      "total_fetches": 13,
+      "success_count": 13,
       "avg_items_per_fetch": 10,
       "avg_quality_score": 4.3,
-      "last_fetch": "2026-02-24",
-      "last_success": "2026-02-24"
+      "last_fetch": "2026-02-25",
+      "last_success": "2026-02-25"
     },
     "hf_papers": {
-      "total_fetches": 12,
-      "success_count": 12,
+      "total_fetches": 13,
+      "success_count": 13,
       "avg_items_per_fetch": 13,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-24",
-      "last_success": "2026-02-24"
+      "last_fetch": "2026-02-25",
+      "last_success": "2026-02-25"
     },
     "one_useful_thing": {
-      "total_fetches": 8,
-      "success_count": 8,
+      "total_fetches": 9,
+      "success_count": 9,
       "avg_items_per_fetch": 3,
       "avg_quality_score": 4.8,
-      "last_fetch": "2026-02-24",
-      "last_success": "2026-02-24"
+      "last_fetch": "2026-02-25",
+      "last_success": "2026-02-25"
     },
     "paul_graham": {
-      "total_fetches": 8,
-      "success_count": 8,
+      "total_fetches": 9,
+      "success_count": 9,
       "avg_items_per_fetch": 5,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-24",
-      "last_success": "2026-02-24"
+      "last_fetch": "2026-02-25",
+      "last_success": "2026-02-25"
     }
   },
 
@@ -288,7 +288,27 @@
       "https://www.oneusefulthing.org/p/mass-intelligence": "2026-02-24",
       "https://paulgraham.com/smart.html": "2026-02-24",
       "https://paulgraham.com/words.html": "2026-02-24",
-      "https://paulgraham.com/newideas.html": "2026-02-24"
+      "https://paulgraham.com/newideas.html": "2026-02-24",
+      "https://www.inceptionlabs.ai/blog/introducing-mercury-2": "2026-02-25",
+      "https://blog.cloudflare.com/vinext/": "2026-02-25",
+      "https://huggingface.co/papers/2602.20159": "2026-02-25",
+      "https://github.com/moonshine-ai/moonshine": "2026-02-25",
+      "https://huggingface.co/papers/2602.20161": "2026-02-25",
+      "https://github.com/generalaction/emdash": "2026-02-25",
+      "https://huggingface.co/papers/2602.16863": "2026-02-25",
+      "https://huggingface.co/papers/2602.20160": "2026-02-25",
+      "https://huggingface.co/papers/2602.20021": "2026-02-25",
+      "https://paulgraham.com/want.html": "2026-02-25",
+      "https://paulgraham.com/alien.html": "2026-02-25",
+      "https://huggingface.co/papers/2602.18532": "2026-02-25",
+      "https://huggingface.co/papers/2602.17393": "2026-02-25",
+      "https://huggingface.co/papers/2602.19672": "2026-02-25",
+      "https://huggingface.co/papers/2602.19895": "2026-02-25",
+      "https://huggingface.co/papers/2602.19313": "2026-02-25",
+      "https://huggingface.co/papers/2602.16872": "2026-02-25",
+      "https://www.mariannefeng.com/portfolio/kindle/": "2026-02-25",
+      "https://paulgraham.com/weird.html": "2026-02-25",
+      "https://paulgraham.com/goodtaste.html": "2026-02-25"
     }
   },
 
@@ -564,6 +584,28 @@
       "Babyshark: Terminal PCAP Viewer as Lightweight Wireshark Alternative",
       "Sowbot: Open-Source Agricultural Robot with ROS2 and RTK GPS",
       "Crazy New Ideas: How to Properly Evaluate Disruptive Thinking (Paul Graham)"
+    ],
+    "2026-02-25": [
+      "Mercury 2: Fastest Reasoning LLM Powered by Diffusion (5x Faster)",
+      "Vinext: Cloudflare Rebuilds Next.js with AI in One Week (4.4x Faster Builds)",
+      "VBVR: Very Big Video Reasoning Suite (1M Clips, Emergent Generalization)",
+      "Moonshine: Open-Weight STT Models Surpass Whisper Large v3 (245M Params)",
+      "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+      "Emdash: Open-Source Agentic Development Environment (21+ AI Agents)",
+      "SimToolReal: Zero-Shot Dexterous Tool Manipulation via Universal RL Policy",
+      "tttLRM: Test-Time Training for Long-Context 3D Reconstruction",
+      "Agents of Chaos: Red-Teaming Autonomous AI Agents (11 Vulnerability Classes)",
+      "What You (Want to)* Want: The Desire Recursion Paradox (Paul Graham)",
+      "Alien Truth: Universal Principles Across Intelligent Life (Paul Graham)",
+      "VLANeXt: 12 Recipes for Building Strong VLA Models",
+      "Contact-Anchored Proprioceptive Odometry for Quadruped Robots (0.16m Error)",
+      "SkillOrchestra: Agent Routing via Skill Transfer (700x Cost Reduction)",
+      "DSDR: Dual-Scale Diversity Regularization for LLM Reasoning",
+      "TOPReward: Token Probabilities as Zero-Shot Rewards for Robotics",
+      "DODO: Discrete OCR Diffusion Models (AWS Research)",
+      "Hacking an Old Kindle into a Bus Arrival Display",
+      "Weird Languages: Why Learn Unconventional Programming Languages (Paul Graham)",
+      "Is There Such a Thing as Good Taste? Logical Proof (Paul Graham)"
     ]
   }
 }
