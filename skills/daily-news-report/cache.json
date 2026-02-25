@@ -3,46 +3,70 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-25",
-    "duration_seconds": 380,
-    "items_collected": 34,
-    "items_published": 20,
-    "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham"]
+    "date": "2026-02-26",
+    "duration_seconds": 350,
+    "items_collected": 28,
+    "items_published": 18,
+    "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham", "james_clear", "fs_blog", "scotthyoung"]
   },
 
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 13,
-      "success_count": 13,
+      "total_fetches": 14,
+      "success_count": 14,
       "avg_items_per_fetch": 10,
       "avg_quality_score": 4.3,
-      "last_fetch": "2026-02-25",
-      "last_success": "2026-02-25"
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
     },
     "hf_papers": {
-      "total_fetches": 13,
-      "success_count": 13,
-      "avg_items_per_fetch": 13,
+      "total_fetches": 14,
+      "success_count": 14,
+      "avg_items_per_fetch": 12,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-25",
-      "last_success": "2026-02-25"
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
     },
     "one_useful_thing": {
-      "total_fetches": 9,
-      "success_count": 9,
+      "total_fetches": 10,
+      "success_count": 10,
       "avg_items_per_fetch": 3,
       "avg_quality_score": 4.8,
-      "last_fetch": "2026-02-25",
-      "last_success": "2026-02-25"
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
     },
     "paul_graham": {
-      "total_fetches": 9,
-      "success_count": 9,
+      "total_fetches": 10,
+      "success_count": 10,
       "avg_items_per_fetch": 5,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-25",
-      "last_success": "2026-02-25"
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
+    },
+    "james_clear": {
+      "total_fetches": 3,
+      "success_count": 3,
+      "avg_items_per_fetch": 1,
+      "avg_quality_score": 4.3,
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
+    },
+    "fs_blog": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 1,
+      "avg_quality_score": 4.4,
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
+    },
+    "scotthyoung": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 3,
+      "avg_quality_score": 4.0,
+      "last_fetch": "2026-02-26",
+      "last_success": "2026-02-26"
     }
   },
 
@@ -308,7 +332,25 @@
       "https://huggingface.co/papers/2602.16872": "2026-02-25",
       "https://www.mariannefeng.com/portfolio/kindle/": "2026-02-25",
       "https://paulgraham.com/weird.html": "2026-02-25",
-      "https://paulgraham.com/goodtaste.html": "2026-02-25"
+      "https://paulgraham.com/goodtaste.html": "2026-02-25",
+      "https://si.inc/posts/fdm1/": "2026-02-26",
+      "https://huggingface.co/papers/2602.21193": "2026-02-26",
+      "https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html": "2026-02-26",
+      "https://simonlermen.substack.com/p/large-scale-online-deanonymization": "2026-02-26",
+      "https://www.linum.ai/field-notes/vae-reconstruction-vs-generation": "2026-02-26",
+      "https://worksinprogress.co/issue/the-united-states-needs-fewer-bus-stops/": "2026-02-26",
+      "https://www.scotthyoung.com/blog/2026/02/17/relaxation-paradox/": "2026-02-26",
+      "https://www.scotthyoung.com/blog/2026/02/12/make-hard-work-feel-easy/": "2026-02-26",
+      "https://norlinder.nu/posts/GC-Cost-CPU-vs-Memory/": "2026-02-26",
+      "https://huggingface.co/papers/2602.20739": "2026-02-26",
+      "https://huggingface.co/papers/2602.12192": "2026-02-26",
+      "https://huggingface.co/papers/2602.21204": "2026-02-26",
+      "https://spectrum.ieee.org/jimi-hendrix-systems-engineer": "2026-02-26",
+      "https://www.om-language.com/": "2026-02-26",
+      "https://huggingface.co/papers/2602.21015": "2026-02-26",
+      "https://huggingface.co/papers/2602.21202": "2026-02-26",
+      "https://jamesclear.com/3-2-1/february-19-2026": "2026-02-26",
+      "https://fs.blog/brain-food/february-22-2026/": "2026-02-26"
     }
   },
 
@@ -606,6 +648,26 @@
       "Hacking an Old Kindle into a Bus Arrival Display",
       "Weird Languages: Why Learn Unconventional Programming Languages (Paul Graham)",
       "Is There Such a Thing as Good Taste? Logical Proof (Paul Graham)"
+    ],
+    "2026-02-26": [
+      "FDM-1: First Fully General Computer Action Model (50x Token Efficiency)",
+      "Data Engineering for Scaling LLM Terminal Capabilities (+24% Performance)",
+      "CLI vs MCP: Lazy Loading Reduces AI Agent Token Cost by 94%",
+      "Large-Scale Online Deanonymization with LLMs",
+      "Better Reconstruction ≠ Better Generation: 4-Month VAE Experiment Report",
+      "US Needs Fewer Bus Stops: 44% Cut = 13% Coverage Loss",
+      "The Relaxation Paradox: Zoning Out Doesn't Restore Energy (Scott Young)",
+      "How to Make Hard Work Feel Easy: Effort as Opportunity Cost (Scott Young)",
+      "Dissecting GC CPU-Memory Relationship in OpenJDK 26 (3.5x Variance)",
+      "PyVision-RL: Solving Interaction Collapse in Multimodal Agent RL Training",
+      "Query-focused Reranker via Retrieval Head Attention Scores (4B Model SOTA)",
+      "TTT with KV Binding Is Secretly Linear Attention",
+      "Jimi Hendrix Was a Systems Engineer (IEEE Spectrum)",
+      "The Om Programming Language: Minimalist Concatenative Homoiconic Language",
+      "CHAIN: Interactive 3D Physics Benchmark for Vision Reasoning",
+      "Multi-Vector Index Compression via Attention-Guided Clustering",
+      "James Clear 3-2-1: Trust, Environment, and Speed vs Patience",
+      "Farnam Street Brain Food #669: Internal Battles"
     ]
   }
 }
