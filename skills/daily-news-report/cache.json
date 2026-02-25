@@ -3,46 +3,46 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-02-20",
-    "duration_seconds": 240,
-    "items_collected": 20,
+    "date": "2026-02-24",
+    "duration_seconds": 420,
+    "items_collected": 24,
     "items_published": 20,
-    "sources_used": ["hn", "hf_papers"]
+    "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham"]
   },
 
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 11,
-      "success_count": 11,
+      "total_fetches": 12,
+      "success_count": 12,
       "avg_items_per_fetch": 10,
       "avg_quality_score": 4.3,
-      "last_fetch": "2026-02-20",
-      "last_success": "2026-02-20"
+      "last_fetch": "2026-02-24",
+      "last_success": "2026-02-24"
     },
     "hf_papers": {
-      "total_fetches": 11,
-      "success_count": 11,
+      "total_fetches": 12,
+      "success_count": 12,
       "avg_items_per_fetch": 13,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-20",
-      "last_success": "2026-02-20"
+      "last_fetch": "2026-02-24",
+      "last_success": "2026-02-24"
     },
     "one_useful_thing": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 8,
+      "success_count": 8,
       "avg_items_per_fetch": 3,
       "avg_quality_score": 4.8,
-      "last_fetch": "2026-02-13",
-      "last_success": "2026-02-07"
+      "last_fetch": "2026-02-24",
+      "last_success": "2026-02-24"
     },
     "paul_graham": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 8,
+      "success_count": 8,
       "avg_items_per_fetch": 5,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-02-13",
-      "last_success": "2026-02-07"
+      "last_fetch": "2026-02-24",
+      "last_success": "2026-02-24"
     }
   },
 
@@ -268,7 +268,27 @@
       "https://huggingface.co/papers/2602.16317": "2026-02-20",
       "https://huggingface.co/papers/2602.16301": "2026-02-20",
       "https://yieldcode.blog/post/farewell-rust/": "2026-02-20",
-      "https://makie.org/website/blogposts/raytracing/": "2026-02-20"
+      "https://makie.org/website/blogposts/raytracing/": "2026-02-20",
+      "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/": "2026-02-24",
+      "https://ladybird.org": "2026-02-24",
+      "https://github.com/pgdogdev/pgdog": "2026-02-24",
+      "https://www.reuters.com/technology/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/": "2026-02-24",
+      "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/": "2026-02-24",
+      "https://github.com/puzpuzpuz/go-concurrent-map-bench": "2026-02-24",
+      "https://github.com/vignesh07/babyshark": "2026-02-24",
+      "https://sowbot.co.uk": "2026-02-24",
+      "https://huggingface.co/papers/2602.10693": "2026-02-24",
+      "https://huggingface.co/papers/2602.08354": "2026-02-24",
+      "https://huggingface.co/papers/2602.18292": "2026-02-24",
+      "https://huggingface.co/papers/2602.18422": "2026-02-24",
+      "https://huggingface.co/papers/2602.17807": "2026-02-24",
+      "https://huggingface.co/papers/2602.15727": "2026-02-24",
+      "https://huggingface.co/papers/2602.17080": "2026-02-24",
+      "https://www.oneusefulthing.org/p/the-bitter-lesson-versus-the-garbage": "2026-02-24",
+      "https://www.oneusefulthing.org/p/mass-intelligence": "2026-02-24",
+      "https://paulgraham.com/smart.html": "2026-02-24",
+      "https://paulgraham.com/words.html": "2026-02-24",
+      "https://paulgraham.com/newideas.html": "2026-02-24"
     }
   },
 
@@ -522,6 +542,28 @@
       "Farewell, Rust for Web: Switching to Node.js+TypeScript",
       "Julia GPU Ray Tracer: Physically-Based Scientific Visualization",
       "Which AI to Use in the Agentic Era"
+    ],
+    "2026-02-24": [
+      "AI Built a FreeBSD Wi-Fi Kernel Driver: Zero Lines of Human Code",
+      "Ladybird Browser Engine Adopts Rust with AI-Assisted Migration",
+      "ASML EUV Light Source Breakthrough: 50% More Chips by 2030",
+      "PgDog: Scale PostgreSQL Without Changing Application Code",
+      "VESPO: Stable Off-Policy LLM Training via Variational Sequence Optimization",
+      "SAGE-RL: Reasoning Models Implicitly Know When to Stop Thinking",
+      "The Bitter Lesson vs The Garbage Can: Two Paths for AI in Organizations",
+      "Beyond Smart: Intelligence Is Not Innovation (Paul Graham)",
+      "Putting Ideas into Words: Writing as Thinking (Paul Graham)",
+      "Wolfram Tech as LLM Foundation Tool: Computation-Augmented Generation",
+      "NAMO: Orthogonalized Momentum + Adam Adaptive Step Size Optimizer",
+      "Mass Intelligence: AI Becomes Infrastructure Like Search Engines",
+      "Decoding as Optimization: Unifying Top-K, Top-P, and Best-of-K Sampling",
+      "VidEoMT: Pure ViT Encoder Achieves 160 FPS Video Segmentation",
+      "Generated Reality: Hand and Head Pose Driven Video World Model for XR",
+      "LoRWeB: Learnable LoRA Basis for Visual Analogy Generalization",
+      "Go Concurrent Hash Map Benchmarks: xsync.Map Wins Nearly All Scenarios",
+      "Babyshark: Terminal PCAP Viewer as Lightweight Wireshark Alternative",
+      "Sowbot: Open-Source Agricultural Robot with ROS2 and RTK GPS",
+      "Crazy New Ideas: How to Properly Evaluate Disruptive Thinking (Paul Graham)"
     ]
   }
 }
